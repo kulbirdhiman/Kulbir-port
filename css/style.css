@@ -1,0 +1,111 @@
+*{
+  scroll-behavior: smooth;
+}
+.bg-blue{
+ 
+    background-color: rgb(24, 20, 47);
+}
+
+.purple{
+    color: rgb(83, 55, 83);
+    font-style: bold;
+}
+body{
+  background-color: rgb(27, 27, 54);
+}
+.pic{
+    height: 400px;
+    width: 400px;
+}
+.heading{
+  margin-top: 100px;
+  
+}
+.about-page{
+  height: 500px;
+  width: 500px;
+  box-shadow: 0 0 10px black;
+  border-top-left-radius: 100px;
+  margin: 10px 100px;
+}
+.card-animate{
+  height: 400px;
+  background: url("/img/BACK.jpeg")center;
+  background-size: cover;
+  position: relative;
+  width: 350px;
+  overflow: hidden;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0 0 10px black;
+  
+}
+.card-first{
+  background-color: aliceblue;
+  background: url("../img/quadritech\ png\ new\ new\ new.png") center;
+  background-size: cover;
+}
+.card-sec{
+  background: url('../img/bg-image.jpg')center;
+  background-size: cover;
+}
+.card-body-an{
+  height: inherit;
+  transition: 1s all;
+  backdrop-filter: blur(5px);
+  width: inherit;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 100%;
+  color: aliceblue;
+}
+.card-animate:hover .card-body-an{
+  left: 0px;
+}
+.border-right-{
+  border-right: 2px soild darkblue;
+}
+@media screen and (max-width: 1200px) {
+
+ .about-page{
+  width: 400px;
+  margin: 10px 50px;
+ }
+  }
+@media screen and (max-width: 920px) {
+  .pic{
+    width: 300px;
+    height: 300px;
+  }
+ .about-page{
+  
+  width: 300px;
+  margin: 10px 50px;
+ }
+ .card-animate{
+  height: 300px;
+  width: 200px;
+ }
+  }
+  @media screen and (max-width: 300px) {
+    .pic{
+      width: 200px;
+      height: 250px;
+    } 
+    .about-page{
+      width: 250px;
+    }
+   
+     }
+    @media screen and (max-width: 500px) {
+       .bg-blue{
+        text-align: center;
+       }
+       .about-page{
+        height: 300px;
+        margin: 10px 0px;
+       }
+        }
